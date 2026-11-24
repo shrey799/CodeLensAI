@@ -28,7 +28,7 @@ export function LandingPage({ onStart }: { onStart: () => void }) {
           AI Code Review
         </p>
         <h1 className="text-[56px] leading-[1.05] font-bold tracking-[-0.03em]">
-          Code<span className="text-[#1DB954]">Council</span>
+          Code<span className="text-[#1DB954]">LensAI</span>
         </h1>
         <p className="text-[#A7A7A7] text-base leading-relaxed max-w-lg mx-auto">
           Three AI engineers independently debate your code — then you get the chance to argue back — before a manager delivers the final verdict.

@@ -1,8 +1,8 @@
-# CodeCouncil
+# CodeLensAI
 
 **Three AI engineers independently review your code. You argue back. A manager delivers the final verdict.**
 
-CodeCouncil runs your code through a panel of three AI personas, each with a distinct engineering discipline, who debate its quality, flag issues, and form stances. You then have the chance to counter-argue their findings before an Engineering Manager synthesises all rounds into a final, structured verdict with prioritised action items.
+CodeLensAI runs your code through a panel of three AI personas, each with a distinct engineering discipline, who debate its quality, flag issues, and form stances. You then have the chance to counter-argue their findings before an Engineering Manager synthesises all rounds into a final, structured verdict with prioritised action items.
 
 ---
 
@@ -10,7 +10,7 @@ CodeCouncil runs your code through a panel of three AI personas, each with a dis
 
 Code review is the highest-leverage step in a shipping cycle, but it's also the most inconsistently applied. A single reviewer brings a single perspective and a single mood. Security issues slip past backend engineers. Maintainability concerns get waved through under deadline pressure. And the author never gets a chance to explain the constraints that shaped their choices before a verdict is delivered.
 
-CodeCouncil targets that gap: what if every review was conducted by specialists across three disciplines simultaneously, and the author could argue back before the final call was made?
+CodeLensAI targets that gap: what if every review was conducted by specialists across three disciplines simultaneously, and the author could argue back before the final call was made?
 
 ---
 
@@ -104,7 +104,7 @@ Agents currently commit to a binary block/approve. A calibrated confidence score
 ## Project Structure
 
 ```
-CodeCouncil/
+CodeLensAI/
 ├── backend/
 │   ├── api.py          # FastAPI routes (/api/review, /api/debate, /api/verdict)
 │   ├── agent.py        # Individual AI agent logic & persona prompts
@@ -150,8 +150,8 @@ CodeCouncil/
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/codecouncil.git
-cd codecouncil
+git clone https://github.com/your-username/codelensai.git
+cd codelensai
 ```
 
 ### 2. Backend setup

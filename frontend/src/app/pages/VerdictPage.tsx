@@ -58,7 +58,7 @@ export function VerdictPage({ round0, round1, verdict, onReset }: VerdictPagePro
             Round 1 — After Your Defence
           </p>
           <h1 className="text-3xl font-bold tracking-[-0.03em]">
-            Code<span className="text-[#1DB954]">Council</span>
+            Code<span className="text-[#1DB954]">LensAI</span>
           </h1>
         </motion.div>
 

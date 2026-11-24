@@ -25,7 +25,7 @@ export function PanelPage({ reviews, onDefend }: PanelPageProps) {
           Round 0 — Independent Review
         </p>
         <h1 className="text-3xl font-bold tracking-[-0.03em]">
-          Code<span className="text-[#1DB954]">Council</span>
+          Code<span className="text-[#1DB954]">LensAI</span>
         </h1>
       </motion.div>
 

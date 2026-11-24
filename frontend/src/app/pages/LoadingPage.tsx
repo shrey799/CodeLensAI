@@ -37,7 +37,7 @@ export function LoadingPage({ message, submessage }: LoadingPageProps) {
 
         {/* Branding */}
         <p className="text-[#3E3E3E] text-xs tracking-widest uppercase font-bold">
-          Code<span className="text-[#1DB954]/40">Council</span>
+          Code<span className="text-[#1DB954]/40">LensAI</span>
         </p>
       </div>
     </div>

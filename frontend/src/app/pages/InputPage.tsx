@@ -48,7 +48,7 @@ export function InputPage({ onSubmit, onBack }: InputPageProps) {
               ← Back
             </button>
             <h1 className="text-4xl font-bold tracking-[-0.03em]">
-              Code<span className="text-[#1DB954]">Council</span>
+              Code<span className="text-[#1DB954]">LensAI</span>
             </h1>
             <p className="text-[#A7A7A7] text-sm mt-1">Submit your code for review</p>
           </div>
